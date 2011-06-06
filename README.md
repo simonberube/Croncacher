@@ -27,7 +27,8 @@ In the following example, the `global/header` view will be cached to the identif
 	return array(
 		array(
 			'header',
-			"View::factory('global/header')->render()"
+			"View::factory('global/header')->render()",
+			1
 		)
 	);
 
