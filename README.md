@@ -42,6 +42,6 @@ With your config file ready, you'll want to add a cron job for the following.
 
 	php oil r croncacher
 
-Methods for adding cron jobs will vary by hosting provider and plan, so you may have to tweak it to make it work. As an example, as of this writing, my host, [Media Temple](http://www.mediatemple.net/go/order/?refdom=pxls.co), still uses PHP 5.2 by default. Obviously, Fuel is a framework for PHP 5.3, which means that I have to find the location of a PHP 5.3 binary for the cron job to run. Here is what I've found to work:
+Methods for adding cron jobs will vary by hosting provider and plan, so you may have to tweak it to make it work. As an example, as of this writing, my host, [Media Temple](http://www.mediatemple.net/go/order/?refdom=pxls.co), still uses PHP 5.2 by default. Obviously, Fuel is a framework for PHP 5.3, which means that I have to find the location of a PHP 5.3 binary for the cron job to run. Here is what I've found to work (first set of X's is your account number, second set is the domain):
 
-	"/usr/local/php-5.3.2/bin/php" "/nfs/xXX/xXX/mnt/XXXXXX/domains/XXXX/oil" r croncacher
+	"/usr/local/php-5.3.2/bin/php" "/home/XXXXXX/domains/XXXXXX/oil" r croncacher
