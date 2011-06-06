@@ -27,13 +27,13 @@ In the following example, the `global/header` view will be cached to the identif
 	return array(
 		array(
 			'header',
-			View::factory('global/header')
+			"View::factory('global/header')->render()"
 		)
 	);
 
 ### Further documentation
 
-All parameters for `Cache::set()` work with this task. Please refer to the [Cache Class documentation](http://fuelphp.com/docs/classes/cache/usage.html).
+All parameters for `Cache::set()` also work with this task. Please refer to the [Cache Class documentation](http://fuelphp.com/docs/classes/cache/usage.html).
 
 Usage
 -----

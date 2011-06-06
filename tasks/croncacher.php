@@ -35,6 +35,7 @@ class Croncacher {
 	{
  		$config = \Config::load('croncacher', false);
 		foreach ($config as $cache_item) {
+			$cache_item[1] = eval("return $cache_item[1];");
 			call_user_func_array('\Cache::set',$cache_item);
 		}
 	}

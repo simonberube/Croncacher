@@ -9,7 +9,7 @@ The Cron Cacher config array accepts arrays which contain the parameters you wou
 return array(
 	// array(
 	// 	'header',
-	// 	View::factory('global/header')
+	// 	"View::factory('global/header')->render()"
 	// )
 );
 
