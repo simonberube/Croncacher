@@ -8,13 +8,14 @@ The Cron Cacher config array accepts arrays which contain the parameters you wou
 
 return array(
 	// array(
-	// 	'heading',
-	// 	"Html::h('example')",
-	// 	1
+	// 	'header',
+	// 	"View::factory('global/header')->render()",
+	// 	3600
 	// ),
 	// array(
-	// 	'header',
-	// 	"View::factory('global/header')->render()"
+	// 	'index-dynamic',
+	// 	"(string) Request::factory('welcome/index')->execute()",
+	// 	86400
 	// )
 );
 
