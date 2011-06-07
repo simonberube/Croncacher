@@ -8,6 +8,8 @@ Refresh caches as often as needed, not just when it's requested & expired.
 Installation
 ------------
 
+Tested with Fuel V1.0 RC3.
+
 To install the Cron Cacher task, place the included files into their respective Fuel app folders. 
 
 * fuel/app/tasks/croncacher.php
